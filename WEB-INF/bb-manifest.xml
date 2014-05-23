@@ -3,15 +3,14 @@
     <name value= "Impersonate"/>
     <handle value= "impersonate"/>
     <description value= "Allows an admin to impersonate a user."/>
-    <version value= "1.0.12"/>
+    <version value= "1.1"/>
     <requires>
 	<bbversion value="9.0.0"/>
     </requires>
     <vendor>
-      <id value="usf"/>
-      <name value="USF"/>
-      <url value="http://www.usf.edu/" />
-      <description value="University of South Florida, Tampa." />
+      <id value="cmu"/>
+      <name value="Central Michigan University"/>
+      <url value="http://www.cmich.edu/" />
     </vendor>
     <http-actions>
       <remove value=""/>

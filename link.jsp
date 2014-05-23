@@ -14,7 +14,7 @@
 <% 
 	Impersonate imp = new Impersonate(ctx.getUser().getUserName(),request,response);
 	if(!imp.checkAuth(ctx)){
-		response.sendRedirect(request.getScheme()+"://"+request.getServerName()+"/webapps/portal/frameset.jsp");
+		response.sendRedirect(request.getScheme()+"://"+request.getServerName()+"/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1");
 		return;
 	}
 
