@@ -2,7 +2,7 @@
   <plugin>
     <name value= "Impersonate"/>
     <handle value= "impersonate"/>
-    <description value= "Allows an admin to impersonate a user."/>
+    <description value= "Allows an admin to impersonate a user. CMU Customizations of Building Block originally from USF (http://projects.oscelot.org/gf/project/impersonate/)"/>
     <version value= "1.1"/>
     <requires>
 	<bbversion value="9.0.0"/>
