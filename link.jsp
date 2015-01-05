@@ -2,15 +2,17 @@
 	blackboard.platform.security.authentication.*" %>
 <%@ taglib uri="/bbNG" prefix="bbNG" %>
 
-<bbNG:breadcrumbBar environment="SYS_ADMIN" navItem="admin_plugin_manage">
-  <bbNG:breadcrumb>Impersonate</bbNG:breadcrumb>
-</bbNG:breadcrumbBar>
-<bbNG:genericPage ctxId="ctx" title="Impersonate" >
 
+<bbNG:genericPage ctxId="ctx" title="Impersonate" >
 
 <bbNG:pageHeader>
 <bbNG:pageTitleBar title="Impersonate" />
 </bbNG:pageHeader>
+
+<bbNG:breadcrumbBar environment="SYS_ADMIN" navItem="admin_plugin_manage">
+  <bbNG:breadcrumb>Impersonate</bbNG:breadcrumb>
+</bbNG:breadcrumbBar>
+
 <% 
 	Impersonate imp = new Impersonate(ctx.getUser().getUserName(),request,response);
 	if(!imp.checkAuth(ctx)){
